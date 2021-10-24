@@ -246,7 +246,7 @@ body.dark-mode .card {
 }
 
 .section-agen .card_produk .c-col-3 {
-  width: 25% !important;
+  width: 25%;
 }
 
 .section-agen .card_produk a {
@@ -315,12 +315,18 @@ body.dark-mode .card {
 }
 
 @media (max-width: 1024px) {
+  .section-agen .filter-produk {
+    width: 60%;
+  }
   .card_produk .row .col-lg-3 {
     width: 33%;
   }
 }
 
 @media (max-width: 768px) {
+  .c-col-3 {
+    width: 50% !important;
+  }
   .modal-dialog {
     position: relative;
     width: auto;

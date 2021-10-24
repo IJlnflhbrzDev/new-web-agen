@@ -44,7 +44,7 @@ function FuncFilterAgen() {
           element.addEventListener("click", () => {
                uiFilterProduk.classList.toggle("d-block");
 
-               ChngeWidthProduk();
+               // ChngeWidthProduk();
           });
 
 
