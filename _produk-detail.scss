@@ -1,0 +1,129 @@
+.produk-image {
+	width: 100%;
+	display: flex;
+	max-height: 524px;
+	overflow: hidden;
+
+	.image-large {
+		width: 100%;
+		overflow: hidden;
+		img {
+			min-height: 523px;
+		}
+	}
+	img {
+		object-fit: cover;
+		background-size: cover;
+		width: 100%;
+		background-position: center;
+		&:hover {
+			cursor: pointer;
+		}
+	}
+	.thumbnail {
+		width: 100%;
+	}
+	.thumb {
+		width: 20%;
+
+		img {
+			float: left;
+			margin-bottom: 2px;
+			width: 100%;
+			height: 109px;
+			&:hover {
+				opacity: .5;
+			}
+		}
+	}
+
+	.fade {
+		opacity: 0;
+		transition: all 0.55s ease;
+	}
+}
+
+.content-produk-detail {
+	h3 {
+		text-transform: uppercase;
+		font-size: 20px;
+		margin-bottom: 20px;
+	}
+	p.price {
+		font-weight: 500;
+		font-size: 21px;
+		white-space: pre-wrap;
+	}
+	.select-variant {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		margin: 1.5rem 0px;
+		.form-select {
+			width: 30%;
+			background-color: #243042;
+			color: white;
+			border-color: #243042;
+			background-image: url('./down-chevron.png');
+		}
+	}
+
+	table {
+		th,
+		td {
+			color: white;
+		}
+	}
+	.input-jumlah {
+		display: flex;
+		justify-content: start;
+		align-items: center;
+		button#btn-plus {
+			border-radius: 0px .25rem .25rem 0px;
+		}
+		button#btn-minus {
+			border-radius: .25rem 0px 0px .25rem;
+		}
+		span#valueStok {
+			width: 15%;
+			background: white;
+			height: 38px;
+			text-align: center;
+			color: black;
+			line-height: 38px;
+		}
+	}
+}
+
+.total {
+	background-color: #243042;
+	align-self: flex-start;
+	border-radius: 5px;
+	box-sizing: border-box;
+	height: auto;
+	margin: 0px auto 50px auto;
+	padding: 20px;
+	position: sticky;
+	top: 90px;
+	width: 370px;
+	box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15) !important;
+
+	.title {
+		font-size: 18px;
+
+		font-weight: 600;
+	}
+	.list {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		p {
+			color: white;
+			font-size: 15px;
+			margin-bottom: 5px;
+		}
+	}
+	.btn {
+		width: 100%;
+	}
+}
