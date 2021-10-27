@@ -640,6 +640,9 @@ body.dark-mode .card {
   .card_produk .row .col-lg-3 {
     width: 50%;
   }
+  #checkout form .form-group.mt-5.mb-5 {
+    margin: 1rem !important;
+  }
 }
 
 .copyright {

@@ -337,6 +337,13 @@ body.dark-mode {
 			}
 		}
 	}
+	#checkout {
+		form {
+			.form-group.mt-5.mb-5 {
+				margin: 1rem !important;
+			}
+		}
+	}
 }
 
 .copyright {
